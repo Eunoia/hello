@@ -50,3 +50,30 @@ hr {border-bottom: 3px solid #0068FF;}
 footer .inline-list li {margin-right: 40px;}
 footer a {border: none; color: #0068FF;}
 footer {margin: 0 auto; position: absolute; bottom: 55%; right: -255px; padding: 40px 0 0 0; width: 600px; -webkit-transform: rotate(-90deg);}
+
+@media only screen and (max-width: 767px) {
+    /* CSS for phones and small screens */
+    h1.name{
+      position: static;
+    }
+    .container{
+      width: auto;
+      padding-top: 0px;
+    }
+    article{
+      padding: 30px;
+      padding-top: 10px;
+    }
+    article::after{
+      left: 30px;
+    }
+    footer{
+      position: static;
+      width: auto;
+      -webkit-transform: none;
+    }
+    footer .inline-list li{
+      display: block;
+    }
+
+}
