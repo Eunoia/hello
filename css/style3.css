@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(
+      rgba(255,222,209, 0.45), 
+      rgba(255,222,209, 0.45)
+    ), url(http://subtlepatterns.com/patterns/symphony.png);
+    font-family: Montserrat;
+}
+
+.wrapper {
+    margin: 5% 5% 5% 5%;
+    padding: 5% 5% 5% 5%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+header {
+    order: 1;
+}
+
+article {
+    order: 2;
+    line-height: 1.4;
+    letter-spacing: .02em;
+}
+
+article a {
+    color: #6098FF;
+} 
+
+footer {
+    order: 3;
+    align-self: flex-end;
+
+}
+
+.meta {
+    font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif;
+    font-size: 11px;
+}
+.meta a em{
+	font-size: 105%; font-style: normal; font-weight: 800;
+}
+.meta a:hover {
+    border-bottom: 1px solid #000;
+    color: #333;
+}
+
+.meta a[href^="mailto"] {
+    font-size: 2em;
+}
+
+.inline-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.inline-list li {
+    display: inline-block;
+}
