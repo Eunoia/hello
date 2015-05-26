@@ -1,8 +1,5 @@
 body {
-    background: linear-gradient(
-      rgba(255,222,209, 0.45), 
-      rgba(255,222,209, 0.45)
-    ), url(http://subtlepatterns.com/patterns/symphony.png);
+    background: linear-gradient( rgba(255, 222, 209, 0.45), rgba(255, 222, 209, 0.45)), url(http://subtlepatterns.com/patterns/symphony.png);
     font-family: Montserrat;
 }
 
@@ -30,21 +27,24 @@ article {
 
 article a {
     color: #6098FF;
-} 
+}
 
 footer {
     order: 3;
     align-self: flex-end;
-
 }
 
 .meta {
     font-family: Courier New, Quicksand, "Helvetica Neue", "Arial", sans-serif;
     font-size: 11px;
 }
-.meta a em{
-	font-size: 105%; font-style: normal; font-weight: 800;
+
+.meta a em {
+    font-size: 105%;
+    font-style: normal;
+    font-weight: 800;
 }
+
 .meta a:hover {
     border-bottom: 1px solid #000;
     color: #333;
